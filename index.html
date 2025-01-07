@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/main.css">
+    <title>Enviar facturas</title>
+</head>
+<body>
+    <div class="fullContainer">
+        <div class="subContainer">
+            <div class="upShape"></div>
+            <div class="upRightShape">
+                <span class="secTitle">CRYPTOCORE</span>
+            </div>
+            <div class="cornerShapeRight"></div>
+            <div class="cornerShapeLeft"></div>
+            <section class="contTitle">
+                <h1 class="titles" id="titles"></h1>
+                <span class="sText" id="xtext"></span>
+            </section>
+            <span id="recarc">Seleccione un archivo para comenzar</span>
+            <form id="usFiles">
+                <label class="acButton labelFile" for="ruta">Elegir archivo</label>
+                <input type="file" name="ruta" id="ruta">
+                <label class="acButton labelFile hiddenElement" for="inibt" id="initButton">Iniciar</label>
+                <input type="submit" value="Iniciar" class="acButton hiddenElement" id="inibt">
+            </form>
+            <div class="footContainer">
+                <span class="myFooter"></span>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="nextStep">
+    <script src="static/js/script.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
