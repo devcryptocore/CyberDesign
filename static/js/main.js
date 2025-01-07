@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         if (iniCharts < 10){
             document.querySelector(".upShape").innerHTML += `<span class="chart"></span>`;
             iniCharts++;
-            setTimeout(chartsAdd,1000);
+            setTimeout(chartsAdd,1500);
         }
     }
     chartsAdd();
